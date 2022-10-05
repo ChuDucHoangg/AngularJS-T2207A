@@ -1,0 +1,21 @@
+<div class="login-box">
+  <div class="header">
+    <a routerLink="/" class="btn btn-primary m-2">Login</a>
+    <a routerLink="/register" class="btn btn-warning">Register</a>
+    <a routerLink="app-weather" class="btn btn-warning">Thoi Tiet</a>
+  </div>
+  <div class="weather1">
+    <h4>{{city}}</h4>
+    <h4>Nhiệt Độ: {{temp}}<sup>0</sup>C</h4>
+    <h4>Độ Ẩm: {{hump}}<sup>%</sup></h4>
+    <h4>Áp Suất: {{press}}</h4>
+    <a routerLink="thoitiet" (click)="hanoi()"></a>
+    <button routerLink="thoitiet" (click)="hanoi()">Hà Nội</button>
+    <button routerLink="thoitiet" (click)="bangkok()">Bang Kok</button>
+    <button routerLink="thoitiet" (click)="tphcm()">TP HCM</button>
+    <button routerLink="thoitiet" (click)="london()">Lon Don</button>
+    <button routerLink="thoitiet" (click)="newyork()">New York</button>
+    <button routerLink="thoitiet" (click)="tokyo()">Tokyo</button>
+    <button routerLink="thoitiet" (click)="paris()">Paris</button>
+  </div>
+</div>

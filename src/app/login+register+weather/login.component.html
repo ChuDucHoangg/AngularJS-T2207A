@@ -2,7 +2,7 @@
   <div class="header">
     <a routerLink="/" class="btn btn-primary m-2">Login</a>
     <a routerLink="/register" class="btn btn-warning">Register</a>
-
+    <a routerLink="app-weather" class="btn btn-warning">Thoi Tiet</a>
   </div>
   <div class="social-login">
     <a href="https://www.facebook.com/">
@@ -22,21 +22,20 @@
     </a>
   </div>
 
-  <form class="email-signup">
+
+  <form class="email-login">
     <div class="u-form-group">
-      <input type="email" placeholder="Email"/>
+      <input type="text" required class="text" placeholder="User ID"/>
     </div>
     <div class="u-form-group">
-      <input type="password" placeholder="Password"/>
-    </div>
-    <div class="u-form-group">
-      <input type="password" placeholder="Confirm Password"/>
+      <input type="password" required class="text" placeholder="Enter password"/>
     </div>
     <div class="nho-dang-nhap">
-      <label><input type="checkbox" name="">I agree to the terms & conditions</label>
+      <label><input type="checkbox" name=""> Remember password</label>
     </div>
     <div class="u-form-group">
-      <button>Register</button>
+      <button>Log in</button>
     </div>
   </form>
+
 </div>
