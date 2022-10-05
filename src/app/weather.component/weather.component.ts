@@ -27,18 +27,4 @@ hanoi(){
       this.city = data.name +","+ data.sys.country;
     })
 }
-ngOnInit() {
-
-    this.hanoi();
-}
-bangkok(){
-  const url ='https://api.openweathermap.org/data/2.5/weather?q=bangkok&appid=09a71427c59d38d6a34f89b47d75975c&units=metric'
-  this.http.get<any>(url)
-    .subscribe(data=>{
-      this.temp = data.main.temp;
-      this.hump = data.main.humidity;
-      this.press = data.main.pressure;
-      this.city = data.name +","+ data.sys.country;
-    })
-}
 }
