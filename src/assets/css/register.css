@@ -1,0 +1,93 @@
+.login-box{
+  position:relative;
+  margin: 30px auto;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+}
+.header{
+  position:relative;
+  color: #1CB94E;
+  margin: 5px 5px 10px 5px;
+  padding-bottom:10px;
+  text-align:center;
+  height:28px;
+}
+.header a{
+  margin: 0 25px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.header .active{
+  color: #029f5b;
+  font-size: 10px;
+
+}
+.social-login{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  padding: 10px 0 15px 0;
+}
+.social-login a{
+  position:relative;
+  float: left;
+  margin-left: 100px;
+  text-align:center;
+}
+.nho-dang-nhap{
+  font-size: 12px;
+  margin-right: 70px;
+}
+.email-login,.email-signup{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  margin-top: 20px;
+  text-align:center;
+
+}
+.u-form-group{
+  width:100%;
+}
+.u-form-group input[type="text"],
+.u-form-group input[type="Email"]{
+  padding: 0 10px;
+  border-radius: 2px;
+  color: #333;
+  font-size:0.8rem;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+  width:60%;
+  height:50px;
+  border:none;
+  border-bottom:1px solid #B3BBCE;
+
+}
+.u-form-group input:focus{
+  border-color: #358efb;
+}
+.u-form-group button{
+  width:50%;
+  background-color: #1CB94E;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 0;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
